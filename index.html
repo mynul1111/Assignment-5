@@ -21,7 +21,7 @@
         }
       </script>
 </head>
-<body>
+<body class="roboto-regular">
     <header>
         <nav>
             <div class="navbar bg-base-100">
@@ -31,36 +31,25 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                  <a class="btn btn-ghost text-3xl font-extrabold">P-Ticket</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                  <ul class="menu menu-horizontal px-1 text-lg text-zinc-500">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn">Button</a>
+                  <a class="btn text-lg font-bold text-green-500 bg-[#DCFCE7]">Bus <img src="images/bus-icon.png" alt=""></a>
+                  
                 </div>
               </div>
         </nav>
@@ -68,17 +57,17 @@
         <section class="min-h-screen bg-[url(images/banner.png)] bg-no-repeat bg-center">
             <div class="min-h-screen text-white flex justify-center items-center">
                 <div class="flex flex-col items-center gap-10">
-                    <h1 class="text-6xl font-anton uppercase text-center">End-to-End Travel with <br>P Paribahan
+                    <h1 class="text-6xl font-anton text-center">End-to-End Travel with <br> <span class="text-[lime]">P Paribahan</span>
                     </h1>
                     <p class="text-center">Yes, you can run unit tests and view the results directly within the app. <br>The integrated testing features allow for a streamlined .
                     </p>
-                    <button class="btn">Buy Tickets</button>
+                    <button class="btn text-black bg-[lime]">Buy Tickets</button>
                 </div>
             </div>
         </section>
         <!-- star -->
         <section>
-            <div class="stats shadow">
+            <div class="stats shadow  ml-60 gap-20">
   
                 <div class="stat">
                   <div class="stat-figure text-primary">
@@ -116,21 +105,114 @@
     </header>
     <main>
         <!-- coupon -->
-        <section>
-
+        <section class="">
+              <div class="flex gap-10 ml-20 mt-20">
+                <img src="images/Group 113.png" alt="">
+                <img src="images/Group 113.png" alt="">
+              </div>
+              <br>
+              <br>
+              <div class="text-center">
+                <a class="btn btn-ghost  text-[lime] font-extrabold border-2 border-current py-4 px-8">See All Offers</a>
+              </div>
         </section>
         <!--  -->
-        <section class="bg-[#FFFFFF]">
-            <div class=" text-white flex justify-center items-center">
-                <div class="flex flex-col items-center gap-10">
-                    <h1>P.H Paribahan</h1>
-                    <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                </div>
-            </div>
-            <div>
+        <section class=" mt-20 bg-[#F7F8F8] rounded-t-[80px] border-t-2 border-lime-900">
 
+          <div class="mt-10">
+            <div class="text-center ">
+              <h1>P.H Paribahan</h1>
+              <p>Yes, you can run unit tests and view the results directly within the app. The integrated testing <br> features allow for a streamlined .</p>
             </div>
+          </div>
+
+          <div class="bg-white w-3/4 ml-40 mt-10 pt-10 pb-10 flex items-center gap-40 rounded-[20px]">
+            <div >
+              <div class="flex ml-16 gap-40 ">
+                <div class="flex gap-5">
+                  <div>
+                    <img src="images/bus-logo.png" alt="">
+                  </div>
+                  <div>
+                    <h1>Greenline Paribahan</h1>
+                    <p>Coach-009-WEB ! AC_Business</p>
+                  </div>
+                </div>
+                <div class="flex">
+                  <div>
+                    <img src="images/seat-green.png" alt="">
+                  </div>
+                  <div>
+                    <p>40 Seats left</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="ml-24 mt-5 bg-slate-300 w-5/6 p-10 rounded-[20px]">
+                <div class="flex justify-between"> 
+                  <p>Route</p>
+                  <p>Dhaka - Sylhet</p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="flex justify-between">
+                  <p>Departure Time</p>
+                  <p>9:00 PM</p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="flex justify-between">
+                  <p>Boarding Point - Laxmipur</p>
+                  <p>Dropping Point - Bogura</p>
+                  <p>Est. Time - 11 Hour</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <img src="images/fare.png" alt="">
+              <h1>550 Taka</h1>
+              <p>Per Seat</p>
+            </div>
+          </div>
         </section>
     </main>
+    <footer class="text-[white] bg-gray-900">
+      <section class="py-20 px-20">
+        <div class="flex justify-around items-center mr-40 gap-60">
+          <div>
+            <h1>P-Ticket</h1>
+            <p>P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+          </div>
+          <div>
+            <p class="mb-5">Download our app</p>
+            <div class="flex bg-black py-2 px-2 rounded-lg">
+              <div>
+                <img src="images/playstore.png" alt="">
+              </div>
+              <div>
+                <p>GET IT ON</p>
+                <p>Google Play</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="flex justify-around mr-10">
+          <div>
+            <p>@all rights reserved, P-Ticket services limited.2024</p>
+          </div>
+          <div class="flex gap-5">
+            <div><p>Terms & condition</p></div>
+            <div><p>Return & refund policy</p></div>
+            <div><p>Privacy policy</p></div>
+          </div>
+        </div>
+      </section>
+    </footer>
 </body>
 </html>
